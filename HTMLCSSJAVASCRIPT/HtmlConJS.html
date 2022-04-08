@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <label>Hola mundo Javascript</label>
+    
+    <!--<script>   
+        "use strict"; /*Obila a declara variables con palabra reservada*/
+        let numero = 5;
+        var numero2 = 456
+        let texto = "texto largo";
+        const pi = 3.14159
+        let buleano = true;
+        let vector = [1, 2, 3, 4, 5]
+        let vector2 = [1, 2, 3, "pepe", true,"grillo",56]
+        let suma;
+
+        console.log(numero);
+        console.log(texto);
+
+        //variableMagica = "shazam!!!"; Esto da error con el "use strict" activo
+
+        texto = 3;
+        console.log("esto es un texto " + texto);
+        numero = "hola cinco";
+        console.log("esto es un número" + numero);
+        suma = parseInt(numero2) + parseFloat(pi);
+        console.log("esto es la suma de dos numeros: "+ suma);
+        console.log(pi);
+        //console.log(variableMagica);
+        console.log(buleano);
+        console.log(vector);
+        console.log(vector2);        
+    </script>-->
+
+    <script>
+        //Cuenta numeros del 1 al 12 y cuando sean los números 3 y 6 se mostrará un mensaje
+        //Si el numero es mayor a 10, muestra otro mensaje
+        let numero = 6;        
+
+        for (var contador = 0; contador <= 12; contador++) {
+            console.log("contador =" + contador);
+            switch (contador) {
+                case 3:
+                    console.log("contador es 3");
+                    break;
+                case 6:
+                    console.log("contador es 6");
+                default:
+                    break;                
+            }
+            if (contador > 10) {
+                console.log("el número " + contador + "es mayor de 10");
+            }
+            else {
+
+            }
+        }//final del for, equivalente en VB a Next
+
+        
+
+
+
+
+
+    </script>
+
+
+</body>
+
+</html>
