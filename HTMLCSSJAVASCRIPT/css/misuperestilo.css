@@ -1,0 +1,59 @@
+﻿span {
+    color: red;
+    background-color: aquamarine;
+    font-size: x-large;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+.colorAzul {
+    color: blue;
+}
+
+.colorVerde {
+    color: green;
+}
+
+.titulosDj {
+    color: brown;
+    font-family: 'Comic Sans MS';
+    background-color: blue;
+    /*background-color:rgb(141, 40, 40);*/
+    /*background-color:#262b8e*/
+}
+
+.parrafoConImagen {
+    background-image: url("../Recursos/deadmou.jpg");
+    background-position: center;
+    /*background-size:50% 50%;*/
+    /*background-repeat:no-repeat;*/
+}
+
+.contenedor-flexible {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div .imgDj {
+        width: 200px;
+        height: 200px;
+        margin-left:10px;
+        margin-right:10px;
+    }
+
+div .subtituloDl{
+    display:block;
+    width:100%;
+    text-align:center;
+}
+div .imgDlBloque{
+    display:block;
+    text-align: center;
+    font-weight:bold;
+}
+
+.formulario{
+    display:block;
+}
